@@ -16,5 +16,15 @@ namespace VentanapruebaGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ACEPTAR *__*");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1.ActiveForm.Close();
+        }
     }
 }
